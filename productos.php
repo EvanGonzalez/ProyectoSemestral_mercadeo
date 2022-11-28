@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="/css/FooterEfect.css">
     <link rel="stylesheet" href="/css/Footer.css">
     <link rel="stylesheet" href="/css/menutest.css">
-    <link rel="stylesheet" href="/css/carruselp.css">
     <link rel="stylesheet" href="/css/contenidoP.css">
+    <link rel="stylesheet" href="/css/productos.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <title>Document</title>
 </head>
@@ -26,7 +26,8 @@
 
         <section class="holy-grail-content">
         <?php
-        include("contenido/CarruselPrincipal.html");
+        include("contenido/contenidoinicial.html");
+        include("contenido/productos.html");
         ?>
         </section>
 
@@ -39,8 +40,8 @@
         include("menu_footer/footerefects.html");
         ?>
     </footer>
-    <script src="/JS/Carrusel.js"></script>
     <script src="/JS/contenidoP.js"></script>
+    <script src="/JS/productos.js"></script>
 </body>
 
 </html>
