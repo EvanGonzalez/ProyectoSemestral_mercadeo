@@ -2,7 +2,7 @@
 
 
 .contenedornosotros{
-    margin-bottom: 500px;
+    margin-bottom: 10px;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -26,3 +26,69 @@
 #letra3{
     text-align: justify;
 }
+
+.jumbotron{
+    margin-top: 15px;
+}
+
+.conttextoanimation{
+    margin:0px;
+    font-family:'Roboto';
+    text-align:center;
+    background-image: url("/img/pastel2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#container {
+    color:#ffffff;
+    text-transform: uppercase;
+    font-size:56px;
+    font-weight:bold;
+    padding-top:100px;
+    padding-bottom: 100px;  
+    position: relative;;
+    width:100%;
+    bottom:45%;
+    display:block;
+  }
+  
+  #flip {
+    height:70px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:68px;
+    margin-bottom:25px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background:#42c58a;
+  }
+  #flip div:first-child div {
+    background:#4ec7f3;
+  }
+  #flip div:last-child div {
+    background:#DC143C;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+  
