@@ -23,14 +23,16 @@
     </header>
 
     <div class="holy-grail-body">
-
         <section class="holy-grail-content">
-        <?php
-        include("contenido/CarruselPrincipal.html");
-        ?>
+            <div class="container">
+                <?php
+                include("contenido/CarruselPrincipal.html");
+                ?>
+            </div>
         </section>
 
-        
+
+
 
     </div>
 

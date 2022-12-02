@@ -1,12 +1,13 @@
 .container2 {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
+    margin-top: 15px;
   }
   
   .CarruselPrincipal {
     box-shadow: 0 3px 20px #777;
     box-sizing: border-box;
     background-color: black;
-  
+    
     width: 100%;
     height: 60vh;
     overflow: hidden;

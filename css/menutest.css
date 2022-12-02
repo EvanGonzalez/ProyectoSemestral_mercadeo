@@ -8,7 +8,7 @@
     position: relative;
     z-index: 9999;
     width: 100%;
-    background: linear-gradient(60deg, #ccfbff 0%, #EF96C5 100%);
+    background: linear-gradient(60deg, #EF91A1 0%, #FEB05F 100%);
     
     
 }
@@ -41,7 +41,7 @@
     transition: all 0.5s ease;
 }
 .nav-links li a:hover {
-    background: #601586;
+    background: #E9ECF4;
 	border-radius: 12px;
 }
 .nav-links .mobile-item {
@@ -49,7 +49,7 @@
 }
 .nav-links .drop-menu  {
     position: absolute;
-    background: #5d669a;
+    background: #FEB05F;
     width: 180px;
     line-height: 45px;
     top: 85px;
@@ -59,7 +59,7 @@
 }
 .nav-links .dropmenu1 {
     position: absolute;
-    background: #5d669a;
+    background: #FEB05F;
     width: 40%;
     line-height: 45px;
     top: 85px;
@@ -171,7 +171,7 @@
         max-width: 350px;
         top: 0;
         left: -100%;
-        background: #121b4f;
+        background: #FEB05F;
         display: block;
         padding: 50px 10px;
         line-height: 50px;
@@ -340,7 +340,7 @@
 
   }
   .cotenidoMain{
-    background: linear-gradient(60deg, #ccfbff 0%, #EF96C5 100%);
+    background: linear-gradient(60deg, #EF91A1 0%, #FEB05F 100%);
       
   }
   

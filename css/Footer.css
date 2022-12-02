@@ -1,100 +1,100 @@
 /* contenedor principal del footer */
-.ContenedeorFooter{
-	max-width: 1170px;
-	margin:auto;
+.ContenedeorFooter {
+  max-width: 1170px;
+  margin: auto;
 }
 
 /* clase para crear las columnas de nuestro footer  */
-.rowfooter{
-	display: flex;
-	flex-wrap: wrap;
+.rowfooter {
+  display: flex;
+  flex-wrap: wrap;
 }
 /* para eliminar los puntos de la lista nuestro li */
-.listaFooter{
-	list-style: none;
+.listaFooter {
+  list-style: none;
 }
 /* agregamos un poco de relleno a nuestro footer */
-.footer{
-    padding: 70px 0;
+.footer {
+  padding: 70px 0;
 }
 
 /* esta parte es para las cajas donde tendremos nuestra información enlistadas tambien permitiendo que sea responsive */
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
 }
 
 /* colocaremos una clase foooter-col h4 para darle estilo a nuestro titulos que se encuentra en las columnas */
-.footer-col h4{
-	font-size: 28px;
-	color: #463434;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
+.footer-col h4 {
+  font-size: 28px;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
 }
 
 /* esta parte es para agregarle una linea decorativa en la parte inferior de nuestros titulos h4 de nuestras cajas de informacion */
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #e91e63;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
 }
 
 /* ================================================================
 esta parte solo sera para el estilo de nuestro texto en las columnas */
 
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
 }
-.footer-col ul li a{
-	font-size: 26px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #787272;
-	display: block;
-	transition: all 0.3s ease;
+.footer-col ul li a {
+  font-size: 26px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #787272;
+  display: block;
+  transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
-	color: #111759;
-	padding-left: 8px;
+.footer-col ul li a:hover {
+  color: #111759;
+  padding-left: 8px;
 }
 
 /* en esta parte trabajamos con los iconos de las redes sociales */
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
 }
 /* para crear un efecto al momento de seleccionar el icono */
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
 }
 
 /*responsive*/
-@media(max-width: 767px){
-  .footer-col{
+@media (max-width: 767px) {
+  .footer-col {
     width: 50%;
     margin-bottom: 30px;
+  }
 }
-}
-@media(max-width: 574px){
-  .footer-col{
+@media (max-width: 574px) {
+  .footer-col {
     width: 100%;
-}
+  }
 }
