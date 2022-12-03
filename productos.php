@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/menutest.css">
     <link rel="stylesheet" href="/css/contenidoP.css">
     <link rel="stylesheet" href="/css/productos.css">
+    <link rel="stylesheet" href="/css/testimonial.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <title>Productos</title>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/carruselp.css">
     <link rel="stylesheet" href="/css/contenidoP.css">
     <link rel="stylesheet" href="/css/contenindex.css">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <title>LISMI CAKE’S</title>
@@ -47,6 +48,7 @@
     <script src="/JS/Carrusel.js"></script>
     <script src="/JS/contenidoP.js"></script>
     <script src="/JS/contentindex.js"></script>
+    <script src="/JS/testimonial.js"></script>
 </body>
 
 </html>
