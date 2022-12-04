@@ -115,12 +115,12 @@
   }
   
   .container-text {
-    background-image:  url(/img/WhatsApp\ Image\ 2022-10-05\ at\ 10.50.04\ AM.jpeg);
+    background-image:  url(/img/galletas/galletasdecoradas.JPG);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     color:  #FFFFFF;
     padding-top: 20px;
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Lato', sans-serif;
     animation: filling 3s ease forwards;
   }
@@ -137,10 +137,10 @@
   line-height: 1.8; 
 }
 #circle-shape-example .curve { 
-  width: 35%; height: auto;
+  width: 36%; height: auto;
   min-width: 150px;
   float: left;
-  margin-right:6rem; 
+  margin-right:4rem; 
   border-radius: 50%;
   -webkit-shape-outside:circle();
   shape-outside:circle();
