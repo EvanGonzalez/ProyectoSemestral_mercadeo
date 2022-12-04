@@ -14,8 +14,12 @@
   pointer-events: none;
 }
 
+#CONTENIDOPRODUCTOS{
+  width: 60%;
+}
+
 .contenedorPrincipalcarrusel{
-    width: 50%;
+    width: 70%;
     margin-top: 15px;
 }
 .carousel ul {

@@ -37,7 +37,7 @@
     
 }
 #fondojumbo{
-  background: linear-gradient(60deg, #F2F2F2 0%, #FFC6D3 100%);
+  background: linear-gradient(60deg, #F2A340 0%, #FFCDEA 100%);
 }
 
 
@@ -115,7 +115,7 @@
   }
   
   .container-text {
-    background-image:  url(/img/galletas/galletasdecoradas.JPG);
+    background-image:  url(/img/galletas/galletasgirasol.jpg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     color:  #FFFFFF;

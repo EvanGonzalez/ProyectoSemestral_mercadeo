@@ -27,7 +27,7 @@ a {
  .main-wrapper {
  	display: block;
  	margin: 50px auto 40px;
- 	width: 960px;
+ 	width: 60%;
  }
 
  .main-wrapper input[type="radio"] {

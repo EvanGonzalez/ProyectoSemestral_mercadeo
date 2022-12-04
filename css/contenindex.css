@@ -171,7 +171,7 @@
       rgba(209, 222, 214, 0.767),
       rgba(169, 195, 187, 0.9)
     ),
-    url("/img/chocolate.png");
+    url("/img/galletas/galletasdecoradas.JPG");
 }
 
 #back-5 {
@@ -225,4 +225,32 @@
   .card-seven {
     grid-column: 2/4;
   }
+}
+
+
+/* css para que ofrecemos index */
+  /* inicio de texto para historia */
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+#circle-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#circle-shape-example p { 
+  line-height: 1.8; 
+}
+#circle-shape-example .curve { 
+  width: 32%; height: auto;
+  min-width: 160px;
+  float: left;
+  margin-right:3rem; 
+ 
+
+}
+.textohistoria{
+  text-align: justify;
+}
+.textolista {
+  text-align: left;
+  
+  text-decoration: none;
 }
